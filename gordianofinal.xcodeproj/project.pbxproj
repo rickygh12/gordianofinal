@@ -13,6 +13,10 @@
 		243F0BCF2634A8020094A63E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243F0BCD2634A8020094A63E /* Main.storyboard */; };
 		243F0BD12634A8030094A63E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243F0BD02634A8030094A63E /* Assets.xcassets */; };
 		243F0BD42634A8030094A63E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243F0BD22634A8030094A63E /* LaunchScreen.storyboard */; };
+		243F0BDE2634AB3D0094A63E /* free food pic rvc.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 243F0BDD2634AB3D0094A63E /* free food pic rvc.jpeg */; };
+		243F0BEA2634AF230094A63E /* food bank.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 243F0BE92634AF230094A63E /* food bank.jpeg */; };
+		243F0BED2634AF2E0094A63E /* train .jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 243F0BEC2634AF2E0094A63E /* train .jpeg */; };
+		243F0BF02634B0A10094A63E /* covid2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 243F0BEF2634B0A10094A63E /* covid2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		243F0BD02634A8030094A63E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		243F0BD32634A8030094A63E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		243F0BD52634A8030094A63E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		243F0BDD2634AB3D0094A63E /* free food pic rvc.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "free food pic rvc.jpeg"; path = "../../../../Downloads/free food pic rvc.jpeg"; sourceTree = "<group>"; };
+		243F0BE92634AF230094A63E /* food bank.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "food bank.jpeg"; path = "../../../../Downloads/food bank.jpeg"; sourceTree = "<group>"; };
+		243F0BEC2634AF2E0094A63E /* train .jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "train .jpeg"; path = "../../../../Downloads/train .jpeg"; sourceTree = "<group>"; };
+		243F0BEF2634B0A10094A63E /* covid2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = covid2.jpeg; path = ../../../../Downloads/covid2.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		243F0BC62634A8020094A63E /* gordianofinal */ = {
 			isa = PBXGroup;
 			children = (
+				243F0BDC2634AB0E0094A63E /* images */,
 				243F0BC72634A8020094A63E /* AppDelegate.swift */,
 				243F0BC92634A8020094A63E /* SceneDelegate.swift */,
 				243F0BCB2634A8020094A63E /* ViewController.swift */,
@@ -65,6 +74,17 @@
 				243F0BD52634A8030094A63E /* Info.plist */,
 			);
 			path = gordianofinal;
+			sourceTree = "<group>";
+		};
+		243F0BDC2634AB0E0094A63E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				243F0BEF2634B0A10094A63E /* covid2.jpeg */,
+				243F0BEC2634AF2E0094A63E /* train .jpeg */,
+				243F0BE92634AF230094A63E /* food bank.jpeg */,
+				243F0BDD2634AB3D0094A63E /* free food pic rvc.jpeg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +145,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				243F0BD42634A8030094A63E /* LaunchScreen.storyboard in Resources */,
+				243F0BF02634B0A10094A63E /* covid2.jpeg in Resources */,
+				243F0BED2634AF2E0094A63E /* train .jpeg in Resources */,
 				243F0BD12634A8030094A63E /* Assets.xcassets in Resources */,
 				243F0BCF2634A8020094A63E /* Main.storyboard in Resources */,
+				243F0BEA2634AF230094A63E /* food bank.jpeg in Resources */,
+				243F0BDE2634AB3D0094A63E /* free food pic rvc.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
