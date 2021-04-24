@@ -21,7 +21,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
+                                <color key="highlightedColor" systemColor="systemTealColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SZI-CF-eza">
                                 <rect key="frame" x="0.0" y="115" width="210" height="277"/>
@@ -35,7 +35,7 @@ Markus Smith State Farm is holding the event at 5535 N. 2nd St. from noon to 5:3
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="free food pic rvc.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="iOI-Fp-ChH">
-                                <rect key="frame" x="208" y="130" width="206" height="199"/>
+                                <rect key="frame" x="213" y="115" width="201" height="197"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FINAL ,Ricardo Gordiano" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8YZ-HV-WeM">
@@ -49,24 +49,17 @@ Markus Smith State Farm is holding the event at 5535 N. 2nd St. from noon to 5:3
                                 <rect key="frame" x="-15" y="420" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="h9b-bA-aW3">
-                                <rect key="frame" x="218" y="359" width="196" height="233"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">ROCKFORD, Ill. (WIFR) - The First and Second street bridges, originally built in the mid-1800s, will be replaced following an order from the Illinois Commerce Commission.
-
-The ICC notified Union Pacific Railroad, which built the bridges, that it is responsible for a portion of the cost of fixing them.</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="12f-vm-fCu">
                                 <rect key="frame" x="0.0" y="71" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="covid2.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="muw-12-yr6">
+                                <rect key="frame" x="218" y="656" width="196" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZBc-2N-5Cm">
-                                <rect key="frame" x="0.0" y="592" width="225" height="282"/>
+                                <rect key="frame" x="0.0" y="592" width="210" height="292"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">CHICAGO (CBS) — Illinois reported its lowest COVID-19 infection rate in three weeks on Friday, as new cases continued to drop, and hospitalizations from the virus fell for the third day in a row.
@@ -76,13 +69,20 @@ The Illinois Department of Public Health reported 3,369 new confirmed and probab
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="covid2.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="muw-12-yr6">
-                                <rect key="frame" x="208" y="656" width="206" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="h9b-bA-aW3">
+                                <rect key="frame" x="213" y="362" width="198" height="286"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">ROCKFORD, Ill. (WIFR) - The First and Second street bridges, originally built in the mid-1800s, will be replaced following an order from the Illinois Commerce Commission.
+
+The ICC notified Union Pacific Railroad, which built the bridges, that it is responsible for a portion of the cost of fixing them.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -99,6 +99,9 @@ The Illinois Department of Public Health reported 3,369 new confirmed and probab
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
